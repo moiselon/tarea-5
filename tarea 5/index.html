@@ -1,12 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Servicio Web</title>
 </head>
-<body>
-    
+<body onload = "cargar()">
+
+    <h1 class="titulo">INGRESA LOS DATOS AQUI</h1>
+
+    <form class="form">
+        <input type="text" id="Nombre" required>
+        <input type="text" id="Apellido" required>
+        <input type="text" id="Telefono" required>
+        <input type="button" value="Guardar" onclick="guardar()">
+    </form>
+
+    <div>
+        <table>
+                <thead>
+                <tr>
+                    <th>
+                        <h2>Nombre</h2>
+                    </th>
+                    <th>
+                        <h2>Apellido</h2>
+                    </th>
+                    <th>
+                        <h2>Telefono</h2>
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="cuerpo">
+            </tbody>
+        </table>
+    </div>
 </body>
+
+<script src="js/index.js"></script>
 </html>

@@ -1,0 +1,42 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family:'Open Sans', sans-serif;
+}
+
+/*BODY*/
+body {
+    background: gray;
+    /*rgb(224, 213, 212)*/
+}
+
+h2{
+    padding: 40px;
+    margin: auto;
+}
+
+table{
+    table-layout: fixed;
+    margin: auto;
+    border: 1px solid;
+    border-collapse: collapse;
+    background-color:aquamarine;
+}
+
+tr, th{
+    text-align: left;
+    vertical-align: bottom;
+}
+
+/**/
+.form{
+    padding:40px;
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+    color: whitesmoke;
+}
